@@ -1,0 +1,12 @@
+@media screen and (max-width: 700px){
+  .card_container{
+    flex-direction: column;
+  }
+  .card_one__container{
+    align-items: center;
+  }
+  .card_two__container{
+    align-items: center;
+    
+  }
+}

@@ -1,0 +1,156 @@
+.content_card_section{
+  width: 100%;
+  padding-top: 50px;
+}
+
+.section_container{
+  padding-top: 50px;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.intro_section__container{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.img_container-section{
+  width: 50%;
+  
+  height: 100%;
+}
+.people{
+  opacity: 0;
+  transition: 0.5s ease 0s;
+}
+.people.active{
+  opacity: 1;
+}
+.frame_container{
+  position: relative;
+  z-index: 20;
+  top: 0;
+  left: 0;
+  transform: translate(100%,0%);
+  transition: 0.3s ease 0s;
+  opacity: 0;
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+  background-color: #DDF0A7;
+  border-radius: 20px;
+}
+
+.frame_container.active{
+  transform: translate(100%,-150%);
+  opacity: 1; 
+}
+
+
+.frame_discription{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   padding: 10px 0px 10px 0px ;
+  }
+
+  .frame_img{
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .discription_section-container{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .discription_start_container{
+   padding-left: 10px;
+  }
+
+  .sub_title_container{
+   width: 20%;
+  }
+
+  .sub_title{
+    background-color: #DDF0A7;
+    border-radius: 20px;
+    padding: 10px 5px;
+    text-align: center;
+    opacity: 0;
+    transition: 1s ease 0s;
+  }
+  
+  .sub_title.active{
+    opacity: 1;
+  }
+  .title_section{
+    padding-top: 7px;
+  }
+
+  .title_sec{
+    font-size: 40px;
+    transform: translate(0%,100%);
+    transition: 0.4s ease 0s;
+     opacity: 0;
+  }
+
+  .title_sec.active{
+    transform: translate(0%,0%);
+    opacity: 1;
+  }
+  .button_section_container{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .discription_sec{
+    transform: translate(0%,100%);
+    transition: 0.7s ease 0s;
+     opacity: 0;
+  }
+  .discription_sec.active{
+    transform: translate(0%,0%);
+    opacity: 1;
+  }
+  .get_star_contain{
+    width: 50%;
+    text-align: end;
+    
+  }
+  .get_star{
+    border: 0.3px solid;
+    padding: 20px 10px;
+    border-radius: 20px;
+    transform: translate(0%,100%);
+    transition: 1.3s ease 0s;
+     opacity: 0;
+  }
+  .get_star.active{
+    transform: translate(0%,0%);
+    opacity: 1;
+  }
+  .get_star:hover{
+    background-color: #DDF0A7;
+    transition: 0.3s ease 0s;
+    border: none;
+    color: azure;
+  }
+
+  .try_star{
+    transform: translate(0%,100%);
+    transition: 1.7s ease 0s;
+     opacity: 0;
+  }
+  .try_star.active{
+    transform: translate(0%,0%);
+    opacity: 1;
+  }
+
+  

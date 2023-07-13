@@ -1,0 +1,32 @@
+@media screen and (max-width: 780px){
+  .email_input{
+   
+    max-width: 100%;
+    margin: 0 auto;
+    
+  }
+
+  .email_title{
+    font-size: 30px;
+    
+  }
+
+
+
+}
+
+@media screen and (max-width: 450px){
+  .email_title{
+    font-size: 20px;
+    
+  }
+  .email_input{
+     text-align: center;
+  }
+
+  .footer_email{
+    padding-top: 50px;
+  }
+
+
+}

@@ -1,0 +1,31 @@
+@media screen and (max-width: 1000px) {
+  .content_2 {
+    height: 400px;
+  }
+  .content_background_1 {
+    height: 40%;
+  }
+}
+
+@media screen and (max-width: 820px) {
+  .content_background_1 {
+    height: 30%;
+  }
+  .content_2 {
+    height: 300px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .content_background_1 {
+    height: 15%;
+  }
+  .content_2 {
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .content_background_1 {
+    height: 15%;
+  }
+}

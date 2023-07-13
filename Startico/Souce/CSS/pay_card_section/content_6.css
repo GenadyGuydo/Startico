@@ -1,0 +1,208 @@
+.pay_card_section{
+  width: 100%;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.pay_card_section_container{
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.prcing_container{
+  width: 100%;
+}
+.pric{
+  width: 8%;
+  margin: 0 auto;
+  text-align: center;
+  border: 1 px ;
+  background-color: #DDF0A7; 
+  padding: 5px; 
+  border-radius: 30px;
+}
+.pay_card_section_container_text{
+  width: 100%;
+  padding-top: 30px;
+}
+.pay_card_section_container_title{
+  font-size: 48px;
+  text-align: center;
+}
+.pay_card_section_container_discription{
+  text-align: center;
+}
+
+.pay_card_section_container_cards{
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  height: 500px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.punkts_discription-two{
+  color: #fff;
+}
+
+.punkts_discription-two.active{
+  color: #162E3C;
+  font-size: 18px;
+}
+.cards_container{
+  width: 30%;
+  height: 70%;
+  background-color: #162E3C; 
+  border-radius: 30px;
+ 
+  transition: 0.3s ease 0;
+}
+.button_ossesion_container.active{
+  background-color: #162E3C;
+  color: #DDF0A7;
+  border: #162E3C 1px solid;
+}
+
+.cards_container.active{
+  height: 90%;
+  background-color: #DDF0A7;
+}
+
+.card_osession_container{
+  width: 100%;
+  height: 90%;
+}
+
+.card_img_container{
+  width: 95%;
+  margin: 0 auto;
+  padding: 10px;
+ display: flex;
+ justify-content: end;
+ 
+}
+.card_pay_discription{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-bottom: 7px;
+}
+.plen{
+  color: #fff;
+  font-size: 20px;
+}
+.plen.active{
+  color: #162E3C;
+  font-size: 23px;
+}
+.cost{
+  color: #fff;
+  font-size: 20px;
+  width: 100%;
+  
+}
+.cost.active{
+  color: #162E3C;
+  font-size: 23px;
+}
+.mo{
+  font-size: 15px;
+}
+.mo.active{
+  color: #162E3C;
+  font-size: 17px;
+}
+.inle{
+  width: 100%;
+  height: 1px;
+  background-color: #223E4E;
+ 
+}
+
+.card_pay_includes{
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 5px;
+  height: 60%;
+}
+
+.inc{
+  color: #fff;
+  font-size: 15px;
+  padding-top: 7px;
+}
+
+
+.inc.active{
+  color: #162E3C;
+}
+
+.punkts_container{
+ padding-top: 10px;
+}
+.punkts__one{
+  
+}
+
+.early{
+  color: #fff;
+}
+.early.active{
+  color: #162E3C;
+  font-size: 17px;
+}
+.button_ossesion_container{
+  width: 93%;
+  height: 10%;
+  margin: 0 auto;
+  background-color: #DDF0A7;
+  border-radius: 20px;
+
+}
+.ossession_button{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+.gg-credit-card {
+  
+  background-color: #DDF0A7;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  transform: scale(var(--ggs,1));
+  width: 24px;
+  height: 18px;
+  border: 2px solid;
+  border-radius: 4px
+  
+}
+.gg-credit-card::after,
+.gg-credit-card::before {
+  content: "";
+  display: block;
+  box-sizing: border-box;
+  position: absolute;
+  border-radius: 3px;
+  width: 24px;
+  left: -2px;
+  height: 2px;
+  background: currentColor;
+  top: 9px
+ 
+}
+.gg-credit-card::before {
+  width: 6px;
+  left: 2px;
+  top: 3px
+}
+
+.gg-credit-card.active{
+  background-color: #223E4E;
+  color: #DDF0A7;
+}
+
+
+
+

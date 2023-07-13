@@ -1,0 +1,101 @@
+.graf_container{
+  max-width: 1280px;
+  margin: 0 auto;
+  background-color: #DDF0A7;
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.graf_img_container{
+  display: flex;
+  align-items: center;
+  
+}
+.graf_img{
+  position: absolute;
+  z-index: 20;
+  transform: translate(10px,30px);
+}
+.text_graf_container{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 80px;
+  
+}
+
+.graf__title{
+  font-size: 40px;
+}
+.graf__discription_container{
+  width: 50%;
+  margin: 0 auto;
+}
+
+.graf__discription{
+  font-size: 18px;
+}
+
+.garf_card_container{
+  display: flex;
+  padding-top: 30px;
+
+}
+
+.garaf__card{
+  width: 30%;
+  margin: 0 auto;
+  background-color: #162E3C;
+  border-radius: 20px;
+  padding: 10px;
+  
+}
+
+.card_title{
+  color: #fff;
+  text-align: center;
+  font-size: 20px;
+
+}
+.card_discription{
+  color: #fff;
+  width: 70%;
+  text-align: center;
+}
+
+.graf_frame_container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.graf_card_title_container{
+  width: 100%;
+}
+.graf__discription_card_container{
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.graf_button_container{
+  padding-top: 40px;
+  padding-bottom: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 30px;
+}
+
+.graf_button_container_position{
+  height: 30px;
+}
+
+.get_graf_button{
+padding-right: 40px;
+ border: 0.3px solid;
+ border-radius: 20px;
+ padding: 10px 15px;
+}
+

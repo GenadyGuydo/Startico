@@ -1,0 +1,22 @@
+@media screen and (max-width: 645px){
+
+  .pay_card_section_container_cards{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        height: 110%;
+        width: 100%; 
+    }
+  .cards_container{
+    margin-top: 20px; 
+    width: 60%;
+     padding-top: 30px;
+     padding-bottom: 30px;
+     margin-bottom: 30px;
+    }
+  
+    .punkts_discription-two{
+      font-size: 10px;
+    }
+  
+  }

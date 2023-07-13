@@ -1,0 +1,24 @@
+@import './reset/reset.css';
+@import './header/header.css';
+@import './subheader/subheader.css';
+@import './sektion_1/content_1.css';
+@import './mediaQuery/header_media.css';
+@import'./mediaQuery/content_1_media.css';
+@import './sektion_2/content_2.css';
+@import'./mediaQuery/content_2_media.css';
+@import './sektion_3/content_3.css';
+@import'./mediaQuery/content_3_media.css';
+@import './sektion_4/content_4.css';
+@import'./mediaQuery/content_4_media.css';
+@import './dev_sektion/content_5.css';
+@import'./mediaQuery/content_5_media.css';
+@import './pay_card_section/content_6.css';
+@import'./mediaQuery/content_6_media.css';
+@import './email_section/content_7.css';
+@import'./mediaQuery/content_7_media.css';
+@import'./footer/footer.css';
+
+
+body.lock{
+ overflow: hidden;
+}

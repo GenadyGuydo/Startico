@@ -1,0 +1,22 @@
+@media screen and (max-width: 1030px)  {
+  .content_card_section{
+    padding-bottom: 50px;
+
+  }
+}
+@media screen and (max-width: 760px){
+  .graf_img{
+    width: 20%;
+  }
+}
+@media screen and (max-width: 550px){
+  .garf_card_container{
+    flex-direction: column;
+  }
+  .garaf__card{
+    width: 70%;
+    padding-top: 15px;
+    margin-top: 15px;
+
+  }
+}
